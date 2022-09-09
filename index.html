@@ -6,7 +6,7 @@
 
     <script>
       function change_heading() {
-        console.log("hello world");
+        console.log("Hello world");
         const heading = document.getElementById("heading");
         heading.innerHTML = "My notebook";
       }
@@ -26,10 +26,10 @@
 
   <body>
     <h1 id="heading">Hello world</h1>
-    <button onclick="change_heading()">Change heading</button>
+    <button id="my-button" onclick="change_heading()">Change heading</button>
     <ul id="list"></ul>
 
     <textarea name="TextInput" id="text-area" cols="30" rows="10"></textarea>
-    <button onclick="add_data()">Add data</button>
+    <button id="add-data" onclick="add_data()">Add data</button>
   </body>
 </html>
